@@ -1,0 +1,79 @@
+.title-wrapper h2 {
+  font-family: Bebas Neue, sans-serif;
+  font-size: 3.5rem !important;
+}
+.casual-shoes,
+.formal-shoes,
+.customer-reaction,
+.customer-care {
+  margin: 5rem 0rem;
+}
+.casual-shoes h2,
+.formal-shoes h2,
+.customer-care h2 {
+  font-family: Bebas Neue, sans-serif;
+  font-size: 3rem !important;
+}
+.title-color {
+  color: #fa804c;
+}
+.carousel-inner .carousel-item .slider-image {
+  background-image: url("../icons/Group 33102.png");
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: 40%;
+}
+.carousel-inner .carousel-item .slider-image img {
+  width: 100%;
+  height: auto;
+}
+.card-wrapper {
+  background-color: #f1f1f1;
+  width: 23rem;
+}
+.formal-shoes-card-wrapper {
+  background-color: #fff;
+  width: 23.7rem;
+}
+
+.card img {
+  background-color: #dedede;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  height: auto;
+}
+.formal-shoes img {
+  background-color: #fff;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.price h3 {
+  color: #fa804c;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+.btn {
+  background-color: #3847ce;
+}
+.header {
+  background-color: #fff9f4;
+  height: 35rem;
+}
+.customer-info-image img {
+  width: 150px;
+  height: 80px;
+  padding: 1rem;
+}
+.customer-description {
+  padding: 1rem;
+}
+.fa {
+  color: #ddd;
+  font-size: 1.5rem;
+}
+.contact {
+  font-size: 15px;
+}
