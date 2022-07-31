@@ -58,10 +58,10 @@
 }
 .btn {
   background-color: #3847ce;
+  margin-bottom: 1rem;
 }
 .header {
   background-color: #fff9f4;
-  height: 40rem;
 }
 .customer-info-image img {
   width: 150px;
