@@ -14,41 +14,42 @@
   font-family: Bebas Neue, sans-serif;
   font-size: 3rem !important;
 }
+.carousel-item {
+  height: 100%;
+}
 .title-color {
   color: #fa804c;
 }
-.carousel-inner .carousel-item .slider-image {
-  background-image: url("../icons/Group 33102.png");
-  background-size: cover;
-  background-position: center;
-  height: auto;
-  width: 40%;
-}
-.carousel-inner .carousel-item .slider-image img {
+.slider-image {
   width: 100%;
   height: auto;
+  padding-bottom: 2rem;
 }
-.card-wrapper {
-  background-color: #f1f1f1;
-  width: 23rem;
+.slider-image {
+  background-image: url("../icons/Group 33102.png");
+  background-position: center;
+  background-size: cover;
+  width: 32rem;
+  height: 33rem;
+  padding-bottom: 2rem;
+}
+
+.slider-image img {
+  padding-bottom: 2.5rem;
+  padding: 3.5rem;
+  margin-left: 20%;
+  margin-top: 28%;
 }
 .formal-shoes-card-wrapper {
   background-color: #fff;
-  width: 23.7rem;
 }
 
 .card img {
   background-color: #dedede;
-  width: 100%;
-  background-position: center;
-  background-size: cover;
-  height: auto;
+  height: 22rem;
 }
 .formal-shoes img {
   background-color: #fff;
-  width: 100%;
-  background-position: center;
-  background-size: cover;
 }
 .price h3 {
   color: #fa804c;
@@ -60,7 +61,7 @@
 }
 .header {
   background-color: #fff9f4;
-  height: 35rem;
+  height: 40rem;
 }
 .customer-info-image img {
   width: 150px;

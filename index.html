@@ -45,17 +45,7 @@
                     src="assets/icons/Logo.png"
                     alt="Logo brand"
                   />
-                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                  <button
-                    type="button"
-                    class="btn btn-primary"
-                    data-bs-toggle="popover"
-                    title="Messages received"
-                    data-bs-content="Total number of messages is 14"
-                  >
-                    Click to see <span class="badge bg-danger">14</span>
-                  </button></a
-                >
+                </a>
                 <button
                   class="navbar-toggler"
                   type="button"
@@ -69,7 +59,7 @@
                 </button>
               </div>
               <div
-                class="col-lg-6 collapse navbar-collapse navbar-nav mb-2 mb-lg-0 d-flex justify-content-between"
+                class="col-lg-6 collapse navbar-collapse navbar-nav mb-2 mb-lg-0"
                 id="navbarSupportedContent"
               >
                 <a
@@ -78,10 +68,18 @@
                   href="#"
                   >Home</a
                 >
-                <a class="nav-link fw-semibold" href="#">Product</a>
-                <a class="nav-link fw-semibold" href="">About us</a>
-                <a class="nav-link fw-semibold" href="">Contact us</a>
-                <a class="nav-link fw-semibold" href="">Services</a>
+                <li class="nav-item">
+                  <a class="nav-link fw-semibold" href="#">Product</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-semibold" href="">About us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-semibold" href="">Contact us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-semibold" href="">Services</a>
+                </li>
               </div>
             </div>
           </div>
@@ -121,12 +119,14 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div
-                class="row d-flex align-items-center justify-content-between"
+                class="row d-flex justify-content-between align-items-center"
               >
-                <div class="slider-image col-sm-6 image img-fluid">
+                <div
+                  class="slider-image col-md-6 d-flex justify-content-center align-items-center"
+                >
                   <img
                     src="assets/images/Daco-shoe_1.png"
-                    class="d-block w-100"
+                    class="img-fluid"
                     alt="Slider Image"
                   />
                 </div>
@@ -151,12 +151,14 @@
             </div>
             <div class="carousel-item">
               <div
-                class="row d-flex align-items-center justify-content-between"
+                class="row row d-flex justify-content-between align-items-center"
               >
-                <div class="slider-image col-sm-6">
+                <div
+                  class="slider-image col-md-6 d-flex justify-content-center align-items-center"
+                >
                   <img
                     src="assets/images/image 5.png"
-                    class="d-block w-100"
+                    class="img-fluid"
                     alt="Slider Image"
                   />
                 </div>
@@ -183,10 +185,12 @@
               <div
                 class="row d-flex align-items-center justify-content-between"
               >
-                <div class="slider-image col-sm-6 image">
+                <div
+                  class="slider-image col-md-6 d-flex justify-content-center align-items-center"
+                >
                   <img
                     src="assets/images/pngegg 1.png"
-                    class="d-block w-100"
+                    class="img-fluid"
                     alt="Slider Image"
                   />
                 </div>
@@ -242,11 +246,11 @@
           <span class="title-color">Casual</span> shoes
         </h2>
 
-        <div class="row gy-5 d-flex justify-content-between">
-          <div class="card-wrapper col-md-4 p-2 rounded-3">
-            <div class="card m-2 shadow-lg border-0">
+        <div class="row d-flex justify-content-between">
+          <div class="card-wrapper col-md-6 col-lg-4 py-2">
+            <div class="card p-2 bg-light border-0 shadow-lg">
               <img
-                class="img-fluid w-100 h-auto"
+                class="img-fluid w-100"
                 src="assets/images/image 5.png"
                 class="card-img-top"
                 alt="..."
@@ -274,10 +278,10 @@
               </div>
             </div>
           </div>
-          <div class="card-wrapper col-md-4 p-2 rounded-3">
-            <div class="card m-2 shadow-lg border-0">
+          <div class="card-wrapper col-md-6 col-lg-4 py-2">
+            <div class="card p-2 bg-light border-0 shadow-lg">
               <img
-                class="img-fluid w-100 h-auto"
+                class="img-fluid w-100"
                 src="assets/images/Daco-shoe_1.png"
                 class="card-img-top"
                 alt="..."
@@ -305,10 +309,10 @@
               </div>
             </div>
           </div>
-          <div class="card-wrapper col-md-4 p-2 rounded-3">
-            <div class="card m-2 shadow-lg border-0">
+          <div class="card-wrapper col-md-6 col-lg-4 py-2">
+            <div class="card p-2 bg-light border-0 shadow-lg">
               <img
-                class="img-fluid w-100 h-auto"
+                class="img-fluid w-100"
                 src="assets/images/pngegg 1.png"
                 class="card-img-top"
                 alt="..."
@@ -346,7 +350,9 @@
           <span class="title-color">Formal</span> shoes
         </h2>
         <div class="row d-flex justify-content-between">
-          <div class="formal-shoes-card-wrapper col-md-4 p-2 rounded-3">
+          <div
+            class="col-md-6 col-lg-4 formal-shoes-card-wrapper p-2 rounded-3"
+          >
             <div class="card m-2 shadow-lg border-0 formal-shoes">
               <img
                 class="img-fluid w-100 h-auto"
@@ -377,7 +383,9 @@
               </div>
             </div>
           </div>
-          <div class="formal-shoes-card-wrapper col-md-4 p-2 rounded-3">
+          <div
+            class="col-md-6 col-lg-4 formal-shoes-card-wrapper p-2 rounded-3"
+          >
             <div class="card m-2 shadow-lg border-0 formal-shoes">
               <img
                 class="img-fluid w-100 h-auto"
@@ -408,7 +416,9 @@
               </div>
             </div>
           </div>
-          <div class="formal-shoes-card-wrapper col-md-4 p-2 rounded-3">
+          <div
+            class="col-md-6 col-lg-4 formal-shoes-card-wrapper p-2 rounded-3"
+          >
             <div class="card m-2 shadow-lg border-0 formal-shoes">
               <img
                 class="img-fluid w-100 h-auto"
