@@ -1,1 +1,14 @@
-
+@media screen and (max-width: 768px) {
+  .link {
+    width: 25%;
+  }
+  .contact-btn button,
+  .badge-btn button {
+    width: 100%;
+    margin: auto;
+    padding: 1rem;
+  }
+  .customers {
+    flex-wrap: wrap-reverse;
+  }
+}
